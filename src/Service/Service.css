@@ -1,0 +1,115 @@
+.service-container{
+    text-align: center;
+    height: 94vh;
+    padding-top: 100px;
+    background: linear-gradient(to bottom, #EFCC18, #C08213);
+    margin-top: -6px;
+    position: relative;
+    padding-bottom: 0;
+}
+.service-container h2{
+    z-index: 9999;
+}
+.service-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.Web-development {
+    padding-top: 20px;
+    position: relative;
+    text-align: left;
+    margin: 0px 3px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                0 6px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px); 
+    overflow: hidden;
+    z-index: 2;
+}
+
+.Web-development h3{
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    z-index: 2;
+}
+.Web-development p{
+    padding-left: 22px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.lowerdesign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.lowerdesign .icon{
+    font-size: 50px;
+    background-color: rgb(223, 220, 220);
+    padding: 40px;
+    border-radius: 100px 0 0px 100px;
+    color:  #000000;
+}
+.lowerdesign .text{
+    color: white;
+}
+.chevron{
+    color: white;
+}
+.banner{
+    background-color: #000000;
+    /* height: 90px; */
+    color: white;
+    margin: 100px 0px 0px 0px;
+    z-index: 9999;
+}
+.banner .innerbanner{
+    animation: scroll 20s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.innerbanner h4{
+    font-weight: bold;
+}
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.3;
+    background-color: black;
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    z-index: 1;
+    overflow: hidden;
+    background-color: black;
+
+  }

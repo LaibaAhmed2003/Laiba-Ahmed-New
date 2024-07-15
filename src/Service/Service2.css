@@ -1,0 +1,67 @@
+.service-container {
+    padding: 60px 60px 0px 60px;
+    text-align: center;
+}
+.service-container p{
+    color: rgb(116, 115, 115);
+    font-weight: 500;
+}
+
+.service-inner-contents {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.service1 {
+    width: 285px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #EFCC18; */
+}
+
+.service1 .upper {
+    position: relative; /* Make the parent container relative */
+    border: 2px solid #EFCC18; /* Add border around all sides */
+    /* padding: 20px;  */
+    background-color: #fff; /* Set background color to white */
+    height: 190px;
+    width: 300px;
+}
+
+.service1 .upper img {
+    width: 280px;
+    height: 200px;
+    margin-top: -70px;
+    margin-left: 0px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+.lower p{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.upper h3 {
+    color: #EFCC18;
+    margin: 0;
+    font-size: 20px;
+    position: absolute; /* Position the h3 tag absolutely */
+    left: -50px; /* Adjust left position to move it inside the left border */
+    top: 86%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+    background-color: #fff; 
+    padding: 0 20px; 
+    text-align: center;
+}
+
+.lower p {
+    padding: 20px 0;
+    color: rgb(116, 115, 115);
+    text-align: left;
+    font-size: 17px;
+}

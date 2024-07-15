@@ -1,0 +1,49 @@
+.Hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, #EFCC18, #C08213);
+    padding: 0px 120px;
+    margin-top: -50px;
+    height: 87vh;
+}
+.text-sec{
+    width: 550px;
+}
+.text-sec h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -2px; /* Decrease letter spacing */
+    margin-bottom: 13px;
+}
+.text-sec p{
+    font-size: 21px;
+}
+.button{
+    margin-top: 30px;
+}
+.herobtn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+}
+.chevron{
+    margin-left: 10px;
+    /* background: linear-gradient(to bottom, #EFCC18, #C08213); */
+    background-color: black;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+.hero-image{
+    width: 600px;
+    height: 600px;
+    z-index: -1;
+    margin-top: -25px;
+}

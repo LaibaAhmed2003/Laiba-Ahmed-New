@@ -1,0 +1,31 @@
+.Cta-container{
+    text-align: center;
+    max-height: 80vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 50px 3% 80px;
+}
+.Cta-container h2{
+    font-size: 38px;
+    line-height: 1.3;
+}
+h3{
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+.ctabtn{
+    margin-top: 20px;
+    text-decoration: none;
+    border: 1px solid #EFCC18;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}

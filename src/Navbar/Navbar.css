@@ -1,0 +1,46 @@
+.Navbar-container{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 0px 210px;
+    z-index: 9999;
+}
+.logo h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.navlist .navitem{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+.connectbtn{
+    /* border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size: 17px; */
+
+    /* margin-top: 10px; */
+    text-decoration: none;
+    /* background: linear-gradient(to bottom, #EFCC18, #C08213); */
+    border: 1px solid #EFCC18;
+    color: white;
+    padding: 8px 18px;
+    /* border-radius: 50px; */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}

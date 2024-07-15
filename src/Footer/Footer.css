@@ -1,0 +1,50 @@
+.calendly-section{
+    text-align: center;
+    padding: 40px 0px;
+    overflow-x: hidden;
+}
+.calendly-section .calend{
+    overflow-x: hidden;
+    cursor: pointer;
+}
+.footer-container{
+    padding: 30px 100px;
+    background-color: #000000;
+    color: white;
+}
+.footer-upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookcall{
+    text-decoration: none;
+    background: linear-gradient(to bottom, #EFCC18, #C08213);
+    color: white;
+    padding: 18px 32px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: fit-content;  
+    cursor: pointer;
+}
+
+.footer-lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px 0px 20px 0px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.icon:hover{
+    color: #EFCC18;
+    cursor: pointer;
+}
+
