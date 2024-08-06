@@ -1,4 +1,4 @@
-import { useState } from "react"; // Import useState hook
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import laura from "../media/laura.jpg";
@@ -11,10 +11,7 @@ import quote1 from "../media/quote1.png";
 import "./Testimonial.css";
 
 const Testimonial = () => {
-  // State to manage which testimonial is selected
   const [selectedTestimonial, setSelectedTestimonial] = useState(1);
-
-  // Function to handle click on a testimonial
   const handleTestimonialClick = (testimonialNumber) => {
     setSelectedTestimonial(testimonialNumber);
   };
@@ -24,7 +21,6 @@ const Testimonial = () => {
       <h2>What My Clients Says.</h2>
       <div className="innertest-container">
         <div className="innertext-test">
-          {/* First Testimonial */}
           <div
             className={`testimonial testimonial1 ${
               selectedTestimonial === 1 ? "active" : ""
@@ -41,8 +37,6 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-
-          {/* Second Testimonial */}
           <div
             className={`testimonial testimonial2 ${
               selectedTestimonial === 2 ? "active" : ""
@@ -57,8 +51,6 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-
-          {/* Third Testimonial */}
           <div
             className={`testimonial testimonial3 ${
               selectedTestimonial === 3 ? "active" : ""
@@ -73,7 +65,6 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* {fourth Testimonial} */}
           <div
             className={`testimonial testimonial4 ${
               selectedTestimonial === 4 ? "active" : ""
@@ -88,7 +79,6 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* Fifth Testimonial */}
           <div
             className={`testimonial testimonial5 ${
               selectedTestimonial === 5 ? "active" : ""
@@ -121,15 +111,14 @@ const Testimonial = () => {
             </div>
 
             <p>
-              "Laiba didn't just create a website for me, she crafted a digital
-              sanctuary where souls seeking reinvention can find solace and
+              "Laiba didn't just build a website for me, she created a welcoming
+              space where people looking for change can find comfort and
               guidance. Her attention to detail, creativity, and technical
-              prowess brought my vision to life in ways I couldn't have
-              imagined. Thanks to Laiba's expertise, my platform is not just
-              functional but a true reflection of the transformative journey I
-              offer.If you're seeking a web developer who understands your
-              vision and executes it flawlessly, look no further than Laiba.
-              Thank you, Laiba, for your exceptional service and dedication!"
+              skills made my vision come to life in ways I never expected.
+              Thanks to Laiba, my platform is not just functional but truly
+              reflects the journey I offer. If you need a web developer who
+              understands and perfectly executes your vision, Laiba is the one.
+              Thank you, Laiba, for your amazing service and dedication!"
               <br></br>
               <br />
             </p>
@@ -148,13 +137,11 @@ const Testimonial = () => {
               <FontAwesomeIcon className="yellow-star" icon={faStar} />
             </div>
             <p>
-              "I'm thrilled to share my gratitude for Laiba, the genius behind
-              my website. Laiba didn't just create a website for me; she built a
-              virtual haven where individuals can embark on their journey to
-              wellness and a positive mindset. Her talent and dedication are
-              evident in every pixel, making navigation smooth and content
-              engaging. Laiba, thank you for your exceptional work and for
-              bringing my vision to life in such a beautiful way!"
+              "Laiba is an absolute wizard when it comes to website design! She
+              didn't just build a website for me, she created a cozy online
+              space that truly reflects my brand and helps people feel good. The
+              website is easy to navigate and looks amazing. I'm so happy with
+              the final product. Thanks, Laiba, for bringing my vision to life!"
             </p>
           </div>
           <div
@@ -171,13 +158,10 @@ const Testimonial = () => {
               <FontAwesomeIcon className="yellow-star" icon={faStar} />
             </div>
             <p>
-              "I couldn't be happier with the website Laiba created for my
-              LinkedIn leads coaching business. Laiba's expertise in web
-              development is unmatched, and it shows in every aspect of my site.
-              She captured the essence of my brand perfectly, making it easy for
-              potential clients to connect with me. Laiba, thank you for your
-              exceptional service and for helping me showcase my coaching
-              services beautifully!"
+              Laiba did an amazing job on my LinkedIn coaching website! She
+              really understands my business and captured its essence perfectly.
+              The site looks great and is easy to navigate. I’m so happy with
+              the results!
             </p>
           </div>
           <div
@@ -194,14 +178,9 @@ const Testimonial = () => {
               <FontAwesomeIcon className="yellow-star" icon={faStar} />
             </div>
             <p>
-              "I just have to express my heartfelt thanks to Laiba for her
-              incredible work on my website. As a breathwork trainer and coach,
-              it was essential for me to have a platform that reflects the
-              serenity and transformation I offer. Laiba not only understood my
-              vision but brought it to life with elegance and precision. Her
-              talent as a web developer is truly exceptional, and I couldn't be
-              happier with the result. Thank you, Laiba, for creating a space
-              where others can discover the power of breathwork!"
+              "Laiba did an amazing job on my breathwork website. She totally
+              captured the calm and peaceful vibe I wanted. The site is
+              beautiful and easy to use. I’m so happy with how it turned out!"
             </p>
           </div>
           <div
@@ -218,14 +197,10 @@ const Testimonial = () => {
               <FontAwesomeIcon className="yellow-star" icon={faStar} />
             </div>
             <p>
-              "I've got to give a massive shoutout to Laiba for her incredible
-              work on my website. As a fitness trainer and coach, I needed a
-              platform that not only showcased my services but also motivated
-              visitors to take action. Laiba nailed it! Her creativity and
-              attention to detail turned my ideas into a stunning reality.
-              Thanks to her, I now have a website that reflects my passion for
-              fitness and helps me connect with clients. Laiba, you're a web
-              development wizard."
+              "Laiba did an awesome job on my fitness website! She totally
+              nailed it. The site looks great and really motivates people to get
+              moving. Thanks, Laiba, for helping me build such a cool online
+              gym! "
             </p>
           </div>
         </div>

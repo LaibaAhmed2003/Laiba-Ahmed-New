@@ -8,7 +8,7 @@ const Cta = () => {
   return (
     <div className="Cta-container">
       <h2>
-        Helping Others See & Become The Best Version of Themselves.
+        Helping Others To Create A Sales Generating Website.
         <br />
         Let's Talk!
       </h2>

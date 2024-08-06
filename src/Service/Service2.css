@@ -1,9 +1,11 @@
 .service-container {
-    padding: 60px 60px 0px 60px;
+    padding: 60px 60px 60px 60px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 .service-container p{
-    color: rgb(116, 115, 115);
+    color: rgb(193, 190, 190);
     font-weight: 500;
 }
 
@@ -29,9 +31,11 @@
     position: relative; /* Make the parent container relative */
     border: 2px solid #EFCC18; /* Add border around all sides */
     /* padding: 20px;  */
-    background-color: #fff; /* Set background color to white */
+    background-color: black; /* Set background color to white */
     height: 190px;
     width: 300px;
+    border-radius: 50px;
+
 }
 
 .service1 .upper img {
@@ -40,28 +44,28 @@
     margin-top: -70px;
     margin-left: 0px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+
 }
-.lower p{
-    font-weight: 500;
-    font-size: 17px;
+
+.lower ul li{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 0px;
 }
 
 .upper h3 {
-    color: #EFCC18;
+    color: white;
     margin: 0;
     font-size: 20px;
     position: absolute; /* Position the h3 tag absolutely */
     left: -50px; /* Adjust left position to move it inside the left border */
     top: 86%; /* Center vertically */
     transform: translateY(-50%); /* Center vertically */
-    background-color: #fff; 
-    padding: 0 20px; 
+    background-color: #EFCC18; 
+    padding: 3px 20px; 
     text-align: center;
+    border-radius: 50px;
 }
 
-.lower p {
-    padding: 20px 0;
-    color: rgb(116, 115, 115);
-    text-align: left;
-    font-size: 17px;
-}
+

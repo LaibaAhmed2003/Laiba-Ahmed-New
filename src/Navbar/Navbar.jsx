@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../media/logo2.png";
+import logo from "../media/newlogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -9,7 +9,6 @@ const Navbar = () => {
   return (
     <div className="Navbar-container">
       <div className="logo">
-        {/* <h2>Laiba Ahmed</h2> */}
         <img src={logo} alt="" />
       </div>
       <div className="navlist">

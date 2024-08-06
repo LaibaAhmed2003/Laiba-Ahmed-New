@@ -27,6 +27,7 @@
     border: 2px solid rgb(230, 217, 47);
     padding: 10px 14px;
     cursor: pointer;
+    border-radius: 50px;
 }
 .project-item .image{
     width: 70%;
@@ -51,7 +52,6 @@ hr{
     width: 200px;
     height: 20%;
     border-radius: 10px;
-
 }
 
 

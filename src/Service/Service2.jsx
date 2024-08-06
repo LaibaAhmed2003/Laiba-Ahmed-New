@@ -10,9 +10,9 @@ const Service2 = () => {
     <div className="service-container">
       <h2>What I do?</h2>
       <p>
-        Lorem ipsum dolor sit consectetur adipisicing elit. Dolor, corporis!
-        Lorem ipsum dolor <br></br> sit, amet consectetur adipisicing elit.
-        Optio, at!
+        With over two years of experience and 110 websites under my belt, I
+        specialize <br /> in creating custom web designs that align with your
+        target audience.
       </p>
       <div className="service-inner-contents">
         <div className="service1">
@@ -21,10 +21,12 @@ const Service2 = () => {
             <h3>UI/UX Design</h3>
           </div>
           <div className="lower">
-            <p>
-              Lorem ipsum dolor sit consectetur adipisicing elit. Necessitatibus
-              quod aut.
-            </p>
+            <ul>
+              <li>Discovery & Research</li>
+              <li>Wireframing & Prototyping</li>
+              <li>Visual Design</li>
+              <li>Review, Approval & Handoff</li>
+            </ul>
           </div>
         </div>
         <div className="service1">
@@ -33,10 +35,12 @@ const Service2 = () => {
             <h3>Web Development</h3>
           </div>
           <div className="lower">
-            <p>
-              Lorem ipsum dolor sit consectetur adipisicing elit. Necessitatibus
-              quod aut.
-            </p>
+            <ul>
+              <li>Requirements Gathering & Planning</li>
+              <li>Front-End Development</li>
+              <li>Back-End Development</li>
+              <li>Testing & Deployment</li>
+            </ul>
           </div>
         </div>
 
@@ -46,10 +50,12 @@ const Service2 = () => {
             <h3>Content Publishing</h3>
           </div>
           <div className="lower">
-            <p>
-              Lorem ipsum dolor sit consectetur adipisicing elit. Necessitatibus
-              quod aut.
-            </p>
+            <ul>
+              <li>Content Collection & Organization</li>
+              <li>Formatting & Optimization</li>
+              <li>Uploading & Integration</li>
+              <li>Review, Approval & Publishing</li>
+            </ul>
           </div>
         </div>
       </div>
