@@ -6,6 +6,7 @@ import {
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 import CalendlySection from "./Calendly";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,8 +17,9 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-upper">
           <h2>Unlock your full potential</h2>
-          <h5 className="bookcall" style={{ marginTop: "0px" }}>
+          <h5 className="herobtn" style={{ marginTop: "0px" }}>
             Book 1-1 Call
+            <FontAwesomeIcon icon={faChevronRight} className="chevron" />
           </h5>
         </div>
         <div className="footer-lower">

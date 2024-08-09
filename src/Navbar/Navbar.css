@@ -34,3 +34,12 @@
     width: fit-content;
     border-radius: 50px;
 }
+@media(min-width: 300px) and (max-width: 500px){
+    .Navbar-container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .navlist{
+        display: none;
+    }
+}

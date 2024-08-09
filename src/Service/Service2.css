@@ -69,3 +69,18 @@
 }
 
 
+@media(min-width: 300px) and (max-width: 500px){
+    .service-container{
+        width: 100%;
+        padding: 40px 16px;
+    }
+    .service-inner-contents {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .service1{
+        margin-left: 40px;
+    }
+}

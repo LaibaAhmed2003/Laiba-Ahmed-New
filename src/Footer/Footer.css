@@ -48,3 +48,9 @@
     cursor: pointer;
 }
 
+@media(min-width: 300px) and (max-width: 500px){
+    .footer-container{
+        width: 100%;
+        padding: 40px;
+    }
+}

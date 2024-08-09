@@ -108,5 +108,26 @@
     font-weight: 800;
   }
 
+  @media(min-width: 300px) and (max-width: 500px){
+    .Roadmap-container{
+      width: 100%;
+    }
+    .roadmapinner{
+      width: 100%;
+      margin: 0;
+      padding: 20px 0px;
+    }
+    .boxitem{
+      width: 300px;
+      height: fit-content;
+    }
+    .textpart{
+      border: none;
+    }
+    .imagepart{
+      display: none;
+    }
+    
+  }
 
   

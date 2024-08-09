@@ -122,7 +122,32 @@ span{
     color: #EFCC18;
 }
 
-
+@media(min-width: 300px) and (max-width: 500px){
+    .Hero-container{
+        width: 100%;
+        height: fit-content;
+    }
+    .text-img{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .text-sec{
+        width: 100%;
+    }
+    .image-sec{
+        width: 100%;
+    }
+    .hero-image{
+        width: 340px;
+        height: 400px;
+    }
+    .creative{
+        display: none;
+    }
+}
 
 
 

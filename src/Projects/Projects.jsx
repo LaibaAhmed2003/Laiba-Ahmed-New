@@ -13,38 +13,6 @@ import karlphone from "../media/karlphone.jpeg";
 import evolvebytephone from "../media/evolvebytephone.jpeg";
 
 const Projects = () => {
-  // useEffect(() => {
-  //   const handleMouseMove = (event) => {
-  //     const item = event.currentTarget.querySelector("img");
-  //     const rect = item.getBoundingClientRect();
-  //     const x = (event.clientX - rect.left) / rect.width;
-  //     const y = (event.clientY - rect.top) / rect.height;
-  //     const moveX = (x - 0.5) * 30; // Adjust the 30 value to control the effect
-  //     const moveY = (y - 0.5) * 30; // Adjust the 30 value to control the effect
-
-  //     item.style.transform = `translateZ(50px) rotateX(${moveY}deg) rotateY(${moveX}deg)`;
-  //   };
-
-  //   const handleMouseLeave = (event) => {
-  //     const item = event.currentTarget.querySelector("img");
-  //     item.style.transform = "translateZ(0) rotateX(0) rotateY(0)";
-  //   };
-
-  //   const projectItems = document.querySelectorAll(".project-item");
-
-  //   projectItems.forEach((item) => {
-  //     item.addEventListener("mousemove", handleMouseMove);
-  //     item.addEventListener("mouseleave", handleMouseLeave);
-  //   });
-
-  //   return () => {
-  //     projectItems.forEach((item) => {
-  //       item.removeEventListener("mousemove", handleMouseMove);
-  //       item.removeEventListener("mouseleave", handleMouseLeave);
-  //     });
-  //   };
-  // }, []);
-
   return (
     <div className="Projects-container">
       <h2>Latest Mindblowing Work</h2>
