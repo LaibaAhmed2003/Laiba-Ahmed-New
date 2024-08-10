@@ -118,9 +118,10 @@
    }
  
    @media(min-width:300px) and (max-width:500px){
-     
      .Testimonial-container{
-        width: 100%;
+        width: 90%;
+        padding: 40px 40px;
+        overflow-x: hidden;
      }
       .text-container{
         display: none;

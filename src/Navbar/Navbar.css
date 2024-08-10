@@ -36,10 +36,64 @@
 }
 @media(min-width: 300px) and (max-width: 500px){
     .Navbar-container{
-        width: 100%;
-        padding: 0 10px;
+        width: 90%;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* gap: 200px; */
+        overflow-x: hidden;
+    }
+    .logo img{
+        margin-left: -20px;
     }
     .navlist{
         display: none;
     }
+    .mainbtn{
+        display: none;
+    }
+    .menu-bar{
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+/* Full-screen navlist styles */
+.navlist.open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.navlist.open .navitem {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* Close icon styles */
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px;
+}
+
 }

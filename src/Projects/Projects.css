@@ -56,11 +56,11 @@ hr{
 
 @media(min-width: 300px) and (max-width: 500px){
     .Projects-container{
-        width: 100%;
+        width: 90%;
+        padding: 40px 20px;
+        overflow-x: hidden;
     }
-    .Projects-container h2{
-        margin-left: 15px;
-    }
+ 
     .project-item{
         padding-top: 40px;
         display: flex;
@@ -73,31 +73,36 @@ hr{
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        gap: 121px;
         margin: 0;
-        padding: 0;
-        width: 100%;
+        padding: 0px;
+        /* width: 90%; */
     }
     .text h3{
-        margin-left: 70px;
+        /* margin-left: 36px; */
         width: 100px;
+        font-size: 20px;
     }
     .image{
-        margin-top: 30px;
-        margin-left: 70px;
+         margin-top: 30px;
+        /*margin-left: 70px; */
     }
     .project-item .image .laptop{
-        width: 110%;
+        width: 100%;
         height: 100%;
         border-radius: 10px;
-        margin-left: 10px;
+        margin: 0;
     }
     .image .phoneimg{
-        width: 100px;
+        width: 80px;
     }
     hr{
         width: 100%;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 0px;
+    }
+    .text h5{
+        font-size: 13px;
     }
 }
 

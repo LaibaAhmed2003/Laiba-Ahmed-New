@@ -19,7 +19,6 @@
     margin-left: 80px;
     padding: 80px 30px;
     padding-top: 30px;
-    /* height: 1500px; */
     height: 100vh;
     background-color: #f8f8f8;
 }
@@ -57,18 +56,25 @@ p{
         align-items: flex-start;
         justify-content: center;
         height: fit-content;
+        width: 90%;
+        overflow-x: hidden;
+    }
+    .img-container{
+        width: 90%;
     }
     .img-container img{
-        width: 540px;
-        height: 540px;
+        width: 530px;
+        height: 530px;
      }
      .about-container .text-container{
         width: 100%;
         height: fit-content;
-        margin-left: 10px;
-        padding: 15px 10px;
+        margin: 0;
+        display: block;
+        padding: 40px 20px;
      }
      .text-container p{
         font-size: 20px;
+        color: black;
      }
 }
