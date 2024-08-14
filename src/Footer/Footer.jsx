@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import CalendlySection from "./Calendly";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { Link as ScrollLink } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -17,10 +18,17 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-upper">
           <h2>Unlock your full potential</h2>
-          <h5 className="herobtn" style={{ marginTop: "0px" }}>
+
+          <ScrollLink
+            to="calendly"
+            smooth={true}
+            duration={500}
+            className="herobtn"
+            style={{ cursor: "pointer" }}
+          >
             Book 1-1 Call
             <FontAwesomeIcon icon={faChevronRight} className="chevron" />
-          </h5>
+          </ScrollLink>
         </div>
         <div className="footer-lower">
           <div className="privacy">

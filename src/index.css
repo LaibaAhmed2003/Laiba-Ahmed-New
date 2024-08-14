@@ -15,6 +15,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @media(min-width: 300px) and (max-width: 500px){
   body{

@@ -41,6 +41,10 @@
     width: fit-content;
 
 }
+.herobtn:hover{
+    background-color: #EFCC18;
+    color: white;
+}
 .chevron{
     margin-left: 10px;
     color: white;

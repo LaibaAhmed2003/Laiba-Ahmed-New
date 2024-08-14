@@ -10,6 +10,7 @@ import Roadmap from "./Roadmap/Roadmap";
 import FAQ from "./FAQ/FAQ";
 import Footer from "./Footer/Footer";
 import "./index.css";
+import Testimonial2 from "./Testimonial/Test2";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <About />
       <Service2 />
       <Projects />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <Testimonial2 />
       <Roadmap />
       <FAQ />
       <Footer />

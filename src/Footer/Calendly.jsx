@@ -3,7 +3,7 @@ import { InlineWidget } from "react-calendly";
 import "./Footer.css";
 const CalendlySection = () => {
   return (
-    <div className="calendly-section">
+    <div className="calendly-section" id="calendly">
       <h2> Book 1-1 Call</h2>
       <InlineWidget
         url="https://calendly.com/laiba-sabahat9/15-min?month=2024-07"

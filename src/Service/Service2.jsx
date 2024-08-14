@@ -7,7 +7,7 @@ import content from "../media/content.gif";
 
 const Service2 = () => {
   return (
-    <div className="service-container">
+    <div className="service-container" id="services">
       <h2>What I do?</h2>
       <p>
         With over two years of experience and 110 websites under my belt, I

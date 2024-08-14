@@ -4,22 +4,23 @@
     justify-content: center;
     gap: 0px;
     background-color: #f8f8f8;
-    height: 130vh;
+    height: 80vh;
 }
 .img-container{
     width: 30%;
 }
 .img-container img{
-   width: 670px;
-   height: 915px;
+   width: 563px;
+   height: 563px;
    margin-left: -140px;
 }
 .about-container .text-container{
     width: 50%;
+    margin-top: 20px;
     margin-left: 80px;
-    padding: 80px 30px;
-    padding-top: 30px;
-    height: 100vh;
+    padding: 40px 30px;
+    /* padding-top: 30px; */
+    /* height: fit-content; */
     background-color: #f8f8f8;
 }
 h2{
@@ -42,6 +43,10 @@ p{
     align-items: center;
     width: fit-content;
 }
+.about-btn:hover{
+    background-color: #EFCC18;
+    color: white;
+}
 .chevron2{
     margin-left: 10px;
     color: white;
@@ -56,7 +61,7 @@ p{
         align-items: flex-start;
         justify-content: center;
         height: fit-content;
-        width: 90%;
+        width: 100%;
         overflow-x: hidden;
     }
     .img-container{
@@ -67,7 +72,7 @@ p{
         height: 530px;
      }
      .about-container .text-container{
-        width: 100%;
+        width: 90%;
         height: fit-content;
         margin: 0;
         display: block;

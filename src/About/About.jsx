@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -13,7 +14,7 @@ const About = () => {
       </div>
       <div className="text-container">
         <h2>Hi, I'm Laiba Ahmed.</h2>
-        <p>
+        {/* <p>
           Did you know that almost 85% of founders are unaware of their
           website's potential?
           <br />
@@ -76,12 +77,43 @@ const About = () => {
           <br />
           <br />I also offer 1 month of free customer support. Book a call now—I
           look forward to working with you!
+        </p> */}
+        <p>
+          Did you know 85% of founders aren't fully aware of their website's
+          potential?
+          <br></br>
+          <br></br>
+          After analyzing over 230 websites, I've found common issues like
+          misaligned design, low page sessions, slow speed, and non-mobile
+          responsiveness. These mistakes can seriously hurt your ROI.
+          <br></br>
+          <br></br>
+          I've helped 100+ businesses improve conversions through custom
+          designs, better usability, engaging landing pages, faster speeds, and
+          mobile optimization. Remember, your website promotes you 24/7.
+          <br></br>
+          <br></br>
+          About me:
+          <br></br> I specialize in turning complex problems into modern,
+          optimized websites. With two years of experience, I create fast,
+          secure, mobile-friendly sites using WordPress, Webflow, Shopify,
+          Squarespace, and custom designs.
+          <br></br>
+          <br></br>
+          Plus, I offer 1 month of free customer support. Let's chat—I look
+          forward to working with you!
         </p>
         <div className="button">
-          <Link to="/connect" className="about-btn">
+          <ScrollLink
+            to="calendly"
+            smooth={true}
+            duration={500}
+            className="about-btn"
+            style={{ cursor: "pointer" }}
+          >
             Get Started
-            <FontAwesomeIcon icon={faChevronRight} className="chevron2" />
-          </Link>
+            <FontAwesomeIcon icon={faChevronRight} className="chevron" />
+          </ScrollLink>
         </div>
       </div>
     </div>

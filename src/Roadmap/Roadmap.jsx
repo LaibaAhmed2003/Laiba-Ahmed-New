@@ -45,7 +45,7 @@ const Roadmap = () => {
   }, [activeIndex]);
 
   return (
-    <div className="Roadmap-container">
+    <div className="Roadmap-container" id="how-it-works">
       <h2>How We Achieve It</h2>
       <div className="roadmapinner">
         <div className="slider" ref={sliderRef}>

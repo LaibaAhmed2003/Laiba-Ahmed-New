@@ -24,6 +24,9 @@
     padding: 0px 10px;
     font-size: 18px;
 }
+.navitem:hover{
+    color: rgb(211, 209, 209);
+}
 .connectbtn{
     text-decoration: none;
     border: 1px solid #EFCC18;
@@ -33,6 +36,10 @@
     align-items: center;
     width: fit-content;
     border-radius: 50px;
+}
+.connectbtn:hover{
+    background-color: #EFCC18;
+    color: white;
 }
 .menu-bar{
     display: none;

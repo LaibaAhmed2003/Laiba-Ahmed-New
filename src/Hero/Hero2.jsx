@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import heroimg from "../media/heroimage2.png";
 import "./Hero2.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import Profile from "../media/abimgcrop.png";
+import { Link as ScrollLink } from "react-scroll";
 const Hero = () => {
   return (
     <div className="Hero-container">
@@ -19,10 +19,16 @@ const Hero = () => {
             attention of your targeted audience instantly.
           </p>
           <div className="button">
-            <Link to="/connect" className="herobtn">
-              See Work{" "}
+            <ScrollLink
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="herobtn"
+              style={{ cursor: "pointer" }}
+            >
+              See Work
               <FontAwesomeIcon icon={faChevronRight} className="chevron" />
-            </Link>
+            </ScrollLink>
           </div>
         </div>
         <div className="image-sec">

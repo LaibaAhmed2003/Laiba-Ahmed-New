@@ -29,6 +29,11 @@ h3{
     align-items: center;
     width: fit-content;
 }
+.ctabtn:hover{
+    background-color: #EFCC18;
+    color: white;
+}
+
 @media(min-width: 300px) and (max-width: 500px){
     .Cta-container{
         width: 90%;

@@ -14,7 +14,7 @@ import evolvebytephone from "../media/evolvebytephone.jpeg";
 
 const Projects = () => {
   return (
-    <div className="Projects-container">
+    <div className="Projects-container" id="projects">
       <h2>Latest Mindblowing Work</h2>
       <div className="projects-inner">
         <div className="project-item">
