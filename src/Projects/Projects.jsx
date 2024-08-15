@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Projects.css";
-import laura from "../media/lauraimg.png";
+// import laura from "../media/lauraimg.png";
 import nmweb from "../media/nmwebsite.png";
 import nalu from "../media/Nalu2.png";
 import karl from "../media/karlhall.png";
@@ -11,6 +11,12 @@ import nmphone from "../media/nmphone.jpeg";
 import naluphone from "../media/Naluphone.jpeg";
 import karlphone from "../media/karlphone.jpeg";
 import evolvebytephone from "../media/evolvebytephone.jpeg";
+// import evolve from "../media/eb.png";
+import nmm from "../media/mn.png";
+import kh from "../media/kh.png";
+import evolve from "../media/1.png";
+import jen from "../media/2.png";
+import laura from "../media/3.png";
 
 const Projects = () => {
   return (
@@ -25,8 +31,9 @@ const Projects = () => {
             <h5>View CaseStudy</h5>
           </div>
           <div className="image">
-            <img src={laura} alt="laura-enzor" className="laptop" />
-            <img src={Lauraphone} alt="" className="phoneimg" />
+            {/* <img src={laura} alt="laura-enzor" className="laptop" />
+            <img src={Lauraphone} alt="" className="phoneimg" /> */}
+            <img src={laura} alt="" className="singleimg" />
           </div>
         </div>
         <hr />
@@ -39,8 +46,9 @@ const Projects = () => {
             <h5>View CaseStudy</h5>
           </div>
           <div className="image">
-            <img src={nmweb} alt="neha-menahil" className="laptop" />
-            <img src={nmphone} alt="" className="phoneimg" />
+            {/* <img src={nmweb} alt="neha-menahil" className="laptop" />
+            <img src={nmphone} alt="" className="phoneimg" /> */}
+            <img src={nmm} alt="" className="singleimg" />
           </div>
         </div>
         <hr />
@@ -53,8 +61,9 @@ const Projects = () => {
             <h5>View CaseStudy</h5>
           </div>
           <div className="image">
-            <img src={nalu} alt="jennifer-barnett" className="laptop" />
-            <img src={naluphone} alt="" className="phoneimg" />
+            {/* <img src={nalu} alt="jennifer-barnett" className="laptop" />
+            <img src={naluphone} alt="" className="phoneimg" /> */}
+            <img src={jen} alt="" className="singleimg" />
           </div>
         </div>
         <hr />
@@ -67,8 +76,9 @@ const Projects = () => {
             <h5>View CaseStudy</h5>
           </div>
           <div className="image">
-            <img src={karl} alt="karl-hall" className="laptop" />
-            <img src={karlphone} alt="" className="phoneimg" />
+            {/* <img src={karl} alt="karl-hall" className="laptop" />
+            <img src={karlphone} alt="" className="phoneimg" /> */}
+            <img src={kh} alt="" className="singleimg" />
           </div>
         </div>
         <hr />
@@ -79,21 +89,21 @@ const Projects = () => {
             <h5>View CaseStudy</h5>
           </div>
           <div className="image">
-            <img src={evolvebyte} alt="evolvebyte" className="laptop" />
-            <img src={evolvebytephone} alt="" className="phoneimg" />
+            {/* <img src={evolvebyte} alt="evolvebyte" className="laptop" />
+            <img src={evolvebytephone} alt="" className="phoneimg" /> */}
+            <img src={evolve} alt="" className="singleimg" />
           </div>
         </div>
-        <hr />
 
-        <div className="project-item">
+        {/* <div className="project-item">
           <div className="text">
             <h3>Nmtechedge</h3>
             <h5>View CaseStudy</h5>
           </div>
           <div className="image">
-            <img src={Nmtech} alt="nmtechedge" className="laptop" />
+            <img src={nmm} alt="" className="singleimg" />
           </div>
-        </div>
+        </div> */}
         <hr />
       </div>
     </div>

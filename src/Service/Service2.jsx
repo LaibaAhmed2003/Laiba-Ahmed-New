@@ -21,12 +21,12 @@ const Service2 = () => {
             <h3>UI/UX Design</h3>
           </div>
           <div className="lower">
-            <ul>
+            <ol>
               <li>Discovery & Research</li>
               <li>Wireframing & Prototyping</li>
               <li>Visual Design</li>
               <li>Review, Approval & Handoff</li>
-            </ul>
+            </ol>
           </div>
         </div>
         <div className="service1">
@@ -34,13 +34,13 @@ const Service2 = () => {
             <img src={webdev} alt="" />
             <h3>Web Development</h3>
           </div>
-          <div className="lower">
-            <ul>
+          <div className="lower" style={{ marginLeft: "40px" }}>
+            <ol>
               <li>Requirements Gathering & Planning</li>
               <li>Front-End Development</li>
               <li>Back-End Development</li>
               <li>Testing & Deployment</li>
-            </ul>
+            </ol>
           </div>
         </div>
 
@@ -49,13 +49,13 @@ const Service2 = () => {
             <img src={content} alt="" />
             <h3>Content Publishing</h3>
           </div>
-          <div className="lower">
-            <ul>
+          <div className="lower" style={{ marginLeft: "40px" }}>
+            <ol>
               <li>Content Collection & Organization</li>
               <li>Formatting & Optimization</li>
               <li>Uploading & Integration</li>
               <li>Review, Approval & Publishing</li>
-            </ul>
+            </ol>
           </div>
         </div>
       </div>

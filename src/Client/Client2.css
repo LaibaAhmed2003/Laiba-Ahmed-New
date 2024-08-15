@@ -1,0 +1,66 @@
+.Technologies-Container {
+    position: relative; 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    z-index: 100;
+    margin-top: -70px;
+}
+
+.Technologies-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    gap: 50px;
+}
+
+.Technologies-Inner {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    animation: scroll 20s linear infinite;
+}
+.Technologies-Inner h3 {
+    letter-spacing: 3px;
+    margin-top: 10px;
+    color: white;
+    font-size: 43px;
+    font-weight: 800;
+    font-family: WorkSans, sans-serif;
+}
+
+.Technologies-Item {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media(min-width: 300px) and (max-width: 500px) {
+    .Technologies-Container {
+        width: 100%;
+    padding: 20px 0px;
+
+    }
+
+    .Technologies-Item {
+        font-size: 22px;
+    }
+}

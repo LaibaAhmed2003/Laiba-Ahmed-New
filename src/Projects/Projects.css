@@ -3,6 +3,11 @@
     text-align: center;
     padding-top: 60px;
 }
+.Projects-container h2{
+    font-size: 38px;
+    font-weight: 800;
+    font-family: WorkSans, sans-serif;
+}
 .project-item{
     padding-top: 40px;
     display: flex;
@@ -53,6 +58,10 @@ hr{
     height: 20%;
     border-radius: 10px;
 }
+.singleimg{
+    width: 500px;
+    height: 500px;
+}
 
 @media(min-width: 300px) and (max-width: 500px){
     .Projects-container{
@@ -73,7 +82,7 @@ hr{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 121px;
+        gap: 150px;
         margin: 0;
         padding: 0px;
         /* width: 90%; */
@@ -103,6 +112,10 @@ hr{
     }
     .text h5{
         font-size: 13px;
+    }
+    .singleimg{
+        width: 400px;
+        height: 400px;
     }
 }
 

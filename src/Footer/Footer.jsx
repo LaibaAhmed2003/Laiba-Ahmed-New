@@ -23,7 +23,7 @@ const Footer = () => {
             to="calendly"
             smooth={true}
             duration={500}
-            className="herobtn"
+            className="bookcall"
             style={{ cursor: "pointer" }}
           >
             Book 1-1 Call

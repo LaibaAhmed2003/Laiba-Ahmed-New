@@ -5,6 +5,11 @@
     background-color: rgb(244, 244, 244);
     position: relative;
 }
+.faq-container h2{
+    font-size: 38px;
+    font-weight: 800;
+    font-family: WorkSans, sans-serif;
+}
 .faq-container img{
     position: absolute;
     top: 0;
@@ -47,7 +52,8 @@
   
   @media( min-width: 300px) and (max-width: 500px){
     .faq-container{
-        width: 87%;
+        width: 90%;
+        height: 80vh;
         padding: 80px 20px;
         margin: 0;
         display: flex;
@@ -76,13 +82,13 @@
         /* margin-left: -70px; */
     }
     .question{
-        font-size: 15px;
+        font-size: 19px;
         width: 300px;
         /* margin-left: -50px; */
 
     }
     .answer.active{
-    font-size: 13px;
+    font-size: 18px;
     width: 300px;
     }
   }

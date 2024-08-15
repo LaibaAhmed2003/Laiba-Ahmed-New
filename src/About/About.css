@@ -24,8 +24,10 @@
     background-color: #f8f8f8;
 }
 h2{
-    font-size: 48px;
     margin-bottom: 10px;
+    font-size: 38px;
+    font-weight: 800;
+    font-family: WorkSans, sans-serif;
 }
 p{
     font-size: 15px;
@@ -68,8 +70,8 @@ p{
         width: 90%;
     }
     .img-container img{
-        width: 530px;
-        height: 530px;
+        width: 560px;
+        height: 560px;
      }
      .about-container .text-container{
         width: 90%;
@@ -80,6 +82,23 @@ p{
      }
      .text-container p{
         font-size: 20px;
+        color: rgb(48, 48, 48);
+     }
+    .about-container .text-container span{
         color: black;
+        font-weight: 600;
+    }
+     .about-btn{
+        text-decoration: none;
+        border: 2px solid #EFCC18;
+        color: black;
+        padding: 8px 18px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        font-size: 22px;
+        font-weight: 600;
      }
 }

@@ -1,6 +1,7 @@
 import Navbar from "../src/Navbar/Navbar";
 import Hero2 from "./Hero/Hero2";
-import Client from "./Client/Client";
+// import Client from "./Client/Client";
+import Client from "./Client/Client2";
 import Cta from "./CTA/Cta";
 import About from "./About/About";
 import Service2 from "./Service/Service2";
@@ -17,6 +18,7 @@ function App() {
     <div>
       <Navbar />
       <Hero2 />
+      {/* <Client /> */}
       <Client />
       <Cta />
       <About />
