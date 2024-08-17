@@ -1,3 +1,7 @@
+body.lock-scroll {
+  overflow: hidden;
+}
+
 .Testimonial-container{
     padding: 100px 70px;
     margin: 0;
@@ -149,7 +153,7 @@
   @media (max-width: 768px) {
     .Testimonial-container{
         padding: 0;
-        height: 100vh;
+        height: fit-content;
     }
     .innertext-test {
       flex-direction: column;
@@ -198,6 +202,15 @@
     .testimonial.active .client-info {
       display: block;
     }
+    .client-testimonial h3 {
+      margin-top: 0px;
+    }
+    .client-testimonial p {
+      font-size: 18px;
+      font-style: italic;
+      padding: 0px 36px 0px 0px;
+      overflow: hidden;
+  }
   }
   
 
