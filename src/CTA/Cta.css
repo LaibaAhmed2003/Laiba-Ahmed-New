@@ -60,20 +60,16 @@ h3{
 
 @media(min-width: 300px) and (max-width: 500px){
     .Cta-container{
-        width: 90%;
+        width: 95%;
         /* margin-left: 20px; */
-        height: 100vh;
-        overflow-x: hidden;
+        height: 76vh;
+        overflow: hidden;
     }
     .Cta-container h2{
         padding: 0px 20px;
     }
     .dotimg{
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        top: 0;
-        right: 0;
+      display: none;
     }
     .ctabutton{
         display: flex;
