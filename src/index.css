@@ -37,10 +37,21 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 }
+.button{
+  width: fit-content;
+  background-color: transparent;
+}
+.slider{
+  background-color: transparent;
+}
 
 
 @media(min-width: 300px) and (max-width: 500px){
   body{
     overflow-x: hidden;
+  }
+  .button{
+    width: 100%;
+    background-color: transparent;
   }
 }
