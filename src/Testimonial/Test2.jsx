@@ -1,4 +1,4 @@
-// import { useState } from "react";
+// import { useEffect, useState } from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faStar, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 // import laura from "../media/laura.jpg";
@@ -10,9 +10,24 @@
 // import "./Test2.css";
 
 // const Testimonial = () => {
-//   // Set Laura's testimonial as selected by default
-//   const [selectedTestimonial, setSelectedTestimonial] = useState(0);
+//   const [selectedTestimonial, setSelectedTestimonial] = useState(null);
 //   const isMobile = window.innerWidth < 768;
+
+//   // Disable scroll on mobile when a testimonial is selected
+//   useEffect(() => {
+//     if (isMobile) {
+//       if (selectedTestimonial !== null) {
+//         document.body.classList.add("lock-scroll");
+//       } else {
+//         document.body.classList.remove("lock-scroll");
+//       }
+//     }
+
+//     // Clean up on unmount
+//     return () => {
+//       document.body.classList.remove("lock-scroll");
+//     };
+//   }, [selectedTestimonial, isMobile]);
 
 //   const handleTestimonialClick = (testimonialNumber) => {
 //     setSelectedTestimonial(testimonialNumber);
@@ -218,16 +233,39 @@ import "./Test2.css";
 
 const Testimonial = () => {
   const [selectedTestimonial, setSelectedTestimonial] = useState(null);
-  const isMobile = window.innerWidth < 768;
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  // Disable scroll when a testimonial is selected
+  // Set Laura Enzor as the default active testimonial on larger screens
   useEffect(() => {
-    if (selectedTestimonial !== null) {
-      document.body.classList.add("lock-scroll");
-    } else {
-      document.body.classList.remove("lock-scroll");
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+      if (window.innerWidth >= 700) {
+        setSelectedTestimonial(1); // Set Laura Enzor as default on large screens
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Initial check
+
+    // Clean up the event listener on unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Disable scroll on mobile when a testimonial is selected
+  useEffect(() => {
+    if (isMobile) {
+      if (selectedTestimonial !== null) {
+        document.body.classList.add("lock-scroll");
+      } else {
+        document.body.classList.remove("lock-scroll");
+      }
     }
-  }, [selectedTestimonial]);
+
+    // Clean up on unmount
+    return () => {
+      document.body.classList.remove("lock-scroll");
+    };
+  }, [selectedTestimonial, isMobile]);
 
   const handleTestimonialClick = (testimonialNumber) => {
     setSelectedTestimonial(testimonialNumber);
