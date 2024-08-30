@@ -62,6 +62,10 @@ hr{
     width: 500px;
     height: 500px;
 }
+.text a{
+    text-decoration: none;
+    color: black;
+}
 
 @media(min-width: 300px) and (max-width: 500px){
     .Projects-container{
